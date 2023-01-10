@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/JulCountdown/static/css/main.897f3d43.css",
+    "main.js": "/JulCountdown/static/js/main.44f17021.js",
+    "static/js/787.04c56fae.chunk.js": "/JulCountdown/static/js/787.04c56fae.chunk.js",
+    "static/media/neonxmasTrim.mp4": "/JulCountdown/static/media/neonxmasTrim.c66466e971b99f5cc084.mp4",
+    "static/media/For Christmas.ttf": "/JulCountdown/static/media/For Christmas.32d786e1d66b182bf370.ttf",
+    "static/media/WinterDay-lgOPX.ttf": "/JulCountdown/static/media/WinterDay-lgOPX.4552c9c8cb0aa74f6995.ttf",
+    "static/media/decoration.png": "/JulCountdown/static/media/decoration.17ad9c9b13c81c68c2cd.png",
+    "static/media/xmasiscoming.png": "/JulCountdown/static/media/xmasiscoming.a355f6c604ff6d5edc14.png",
+    "static/media/Please write me a song.ttf": "/JulCountdown/static/media/Please write me a song.6653efb644f98ca73350.ttf",
+    "index.html": "/JulCountdown/index.html",
+    "main.897f3d43.css.map": "/JulCountdown/static/css/main.897f3d43.css.map",
+    "main.44f17021.js.map": "/JulCountdown/static/js/main.44f17021.js.map",
+    "787.04c56fae.chunk.js.map": "/JulCountdown/static/js/787.04c56fae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.897f3d43.css",
+    "static/js/main.44f17021.js"
+  ]
+}
