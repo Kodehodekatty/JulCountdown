@@ -49,11 +49,13 @@ h1 {
 .guestBookLink {
     z-index: 99;
     margin: -40px;
-    width: 100px;
-    height: 40px;
+    min-width: 100px;
+    min-height: 40px;
     display: inline;
     font-family: xmas5;
     font-size: 3em;
+    margin-right: auto;
+    margin-left: auto;
 
 
 }
@@ -70,7 +72,7 @@ h1 {
 .infoContainer {
     display: flex;
     flex-direction: column;
-
+    justify-content: left;
     margin: 20px auto;
 
     font-size: 2em;
@@ -85,16 +87,16 @@ h1 {
     height: 30px;
 
     outline: none;
-    width: 300px;
+    min-width: 300px;
 
 
 }
 
 form {
-    position: fixed;
-
-
-    margin: -38% -9% auto;
+    position: absolute;
+    left: -10%;
+    top: 5%;
+    margin: 0 auto;
     border: none;
     outline: none;
 
@@ -139,8 +141,8 @@ input:active {
     color: rgb(14, 14, 16);
     background: #ffffffad;
     margin: 3% auto;
-    width: 200px;
-    height: 40px;
+    min-width: 200px;
+    min-height: 40px;
     cursor: pointer;
 
 }
@@ -172,12 +174,12 @@ input:active {
     border: 1px solid #00000046;
     color: rgb(0, 0, 0);
     background: #ffffff4d;
-    width: 400px;
-    height: 300px;
+    min-width: 400px;
+    min-height: 300px;
     resize: none;
 
     margin: 15px 300px auto;
-    display: inline-block;
+    display: inline;
 
 
     right: 20%;

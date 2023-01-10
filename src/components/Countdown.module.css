@@ -10,11 +10,12 @@
 
 
     z-index: 99;
-    margin: -630px 370px auto;
+    margin: -600px 200px auto;
+    position: relative;
     font-family: xmas6;
 
     top: 7%;
-    min-width: 900px;
+    min-width: 830px;
     min-height: 500px;
     text-align: center;
 
@@ -30,7 +31,6 @@
     font-size: 3.5em;
     height: 100px;
 
-    text-align: center;
     animation-name: text-focus-in;
     animation-duration: 4s;
     animation-timing-function: ease;
@@ -75,12 +75,15 @@
 
 .countDeco {
     background-image: url("../images/xmasiscoming.png");
-    background-size: cover;
-    width: 50vh;
-    height: 50vh;
-    margin: 0;
-    right: 38%;
+    background-size: auto;
+    display: inline;
+    min-width: 350px;
+    min-height: 350px;
+
+    margin-right: auto;
+    margin-left: auto;
     top: 35%;
+    right: 37%;
     position: absolute;
     animation: fadeIn ease 8s;
     background-repeat: no-repeat;
