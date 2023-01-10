@@ -1,0 +1,188 @@
+@font-face {
+    font-family: xmas5;
+    src: url(../fonts/For\ Christmas.ttf);
+}
+
+
+@font-face {
+    font-family: xmas6;
+    src: url(../fonts//Please\ write\ me\ a\ song.ttf)
+}
+
+
+
+
+@font-face {
+    font-family: xmas9;
+    src: url(../fonts/WinterDay-lgOPX.ttf)
+}
+
+
+.NavMenu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    z-index: 1;
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-top: 10px;
+
+
+
+
+}
+
+h1 {
+
+
+
+    text-decoration-line: none;
+
+
+
+}
+
+.guestBookLink {
+    z-index: 99;
+    margin: -40px;
+    width: 100px;
+    height: 40px;
+    display: inline;
+    font-family: xmas5;
+    font-size: 3em;
+
+
+}
+
+
+.container {
+
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px auto;
+
+    font-size: 2em;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 6px 10px;
+
+    border: 1px solid #00000046;
+    color: rgb(14, 14, 16);
+    background: #ffffffad;
+    font-family: xmas6;
+    height: 30px;
+
+    outline: none;
+    width: 300px;
+
+
+}
+
+form {
+    position: fixed;
+
+
+    margin: -38% -9% auto;
+    border: none;
+    outline: none;
+
+
+
+
+
+}
+
+
+
+fieldset {
+
+
+    outline: none;
+
+}
+
+input:hover {
+
+    outline: none;
+}
+
+input:active {
+
+    outline: none;
+}
+
+.submitBtn {
+
+    z-index: 99;
+    display: inline-block;
+    left: 40%;
+    font-size: 1em;
+    font-family: xmas6;
+    font-weight: 600;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+
+    border: 1px solid #00000046;
+    color: rgb(14, 14, 16);
+    background: #ffffffad;
+    margin: 3% auto;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.submitBtn:hover {
+    font-weight: 600;
+    font-size: larger;
+    letter-spacing: 5px;
+    padding-top: 3px;
+    scale: 103%;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.922);
+}
+
+.submitBtn:active {
+
+    scale: 115%;
+    font-size: smaller;
+    background-color: rgba(255, 255, 0, 0.529);
+}
+
+
+.textBox {
+    font-family: xmas6;
+    font-size: 2rem;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+
+    border: 1px solid #00000046;
+    color: rgb(0, 0, 0);
+    background: #ffffff4d;
+    width: 400px;
+    height: 300px;
+    resize: none;
+
+    margin: 15px 300px auto;
+    display: inline-block;
+
+
+    right: 20%;
+    outline: none;
+
+
+
+}

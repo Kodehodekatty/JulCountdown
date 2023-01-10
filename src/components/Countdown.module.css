@@ -1,0 +1,97 @@
+@font-face {
+    font-family: xmas6;
+    src: url(../fonts//Please\ write\ me\ a\ song.ttf)
+}
+
+
+
+
+.countDiv {
+
+
+    z-index: 99;
+    margin: -630px 370px auto;
+    font-family: xmas6;
+
+    top: 7%;
+    min-width: 900px;
+    min-height: 500px;
+    text-align: center;
+
+
+
+}
+
+
+.numbers {
+
+    border-radius: 20px;
+
+    font-size: 3.5em;
+    height: 100px;
+
+    text-align: center;
+    animation-name: text-focus-in;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+
+}
+
+@keyframes text-focus-in {
+
+    0% {
+        filter: blur(14px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+.yuleTitle {
+
+    font-size: 1.8em;
+    font-family: xmas9;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #FF0000;
+
+
+}
+
+
+
+.countDeco {
+    background-image: url("../images/xmasiscoming.png");
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+    margin: 0;
+    right: 38%;
+    top: 35%;
+    position: absolute;
+    animation: fadeIn ease 8s;
+    background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
